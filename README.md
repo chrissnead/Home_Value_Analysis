@@ -13,7 +13,7 @@ Build a model that estimates a home prices in Portland based on home characteris
 The proposed process includes the following steps and tools:
 
 ### 1) Collect Data
-We have gathered home price and home characteristics from Kaggle and complementing with location characteristics from: Portland Maps, Portland Police, Bureau of Labor Statistics, Portland on the market, etc
+We have gathered home prices and home characteristics from Kaggle and complementing with location characteristics from: Portland Maps, Portland Police, Bureau of Labor Statistics, Portland on the market, etc
 
 Add any webscraping??
 
