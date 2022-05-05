@@ -6,6 +6,7 @@
 * Triangle - Sebastian, Kim
 * Circle - Christopher
 
-# Data collection
-Data cleaning, preprocessing - python
-Storage - 
+# Goal
+Build a model that estimates a home prices in Portland based on home characteristics (bedrm/bath, sqft, year built, etc) and location characteristics (zip, crime, unemployment, etc). In addition to the predictive model will also study market trends and draw some informative conclusions to help understand the market. 
+
+# Process
