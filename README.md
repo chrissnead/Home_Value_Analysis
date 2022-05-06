@@ -21,10 +21,10 @@ Add any webscraping??
 Is this ETL module? develop cleanig process. 
 
 ### 3) Database Creation  
-Updload collected and cleaned data to Postgres or SQL, then build relationships and produce and export final dataframe for analysis
+Updload collected and cleaned data to Postgres or SQL, then build relationships and produce and export final dataframe for analysis. Need database mockup by Sun (Kim working on it)
 
 ### 4) Machine Learning Model & Flask
-Create a multivariable regression model testing all the home characteristics and location characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Create a flask app to interact with model. 
+Create a multivariable regression model testing all the home characteristics and location characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Create a flask app to interact with model. Need machine learning mockup by Sun (Sebastian working on it)
 
 ### 5) Market Trend Analysis & Mapping
 perform analysis on market trends and present in tableau or google sheets. Also provide some pricing summary in heatmap form. 
