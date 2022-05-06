@@ -26,5 +26,5 @@ Updload collected and cleaned data to Postgres or SQL, then build relationships 
 ### 4) Machine Learning Model & Flask
 Create a multivariable regression model , evaluate and make adjustments to land in the best predictive model. Create a flask app to interact with model. 
 
-### 5) Market Trend Analysis  
-perform analuysis on market trends and present in tableau or google sheets
+### 5) Market Trend Analysis & Mapping
+perform analysis on market trends and present in tableau or google sheets. Also provide some pricing summary in heatmap form. 
