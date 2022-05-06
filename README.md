@@ -23,7 +23,7 @@ Is this ETL module? develop cleanig process.
 ### 3) Database Creation  
 Updload collected and cleaned data to Postgres or SQL, then build relationships and produce and export final dataframe for analysis
 
-### 4) Machine Learning Model
+### 4) Machine Learning Model & Flask
 Create a multivariable regression model , evaluate and make adjustments to land in the best predictive model. Create a flask app to interact with model. 
 
 ### 5) Market Trend Analysis  
