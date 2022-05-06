@@ -7,13 +7,13 @@
 * Circle - Christopher
 
 ## Goal
-Build a model that estimates a home prices in Portland based on home characteristics (bedrm/bath, sqft, year built, etc) and location characteristics (zip, crime, unemployment, etc). In addition to the predictive model will also study market trends and draw some informative conclusions to help understand the market. 
+Build a model that estimates a home prices in Portland based on home characteristics (bedrm/bath, sqft, year built, etc) and location characteristics (zip, crime, unemployment, income, population density, etc). In addition to the predictive model will also study market trends and draw some informative conclusions to help understand the market. 
 
 ## Process
 The proposed process includes the following steps and tools:
 
 ### 1) Collect Data
-We have gathered home prices and home characteristics from Kaggle and complementing with location characteristics from: Portland Maps, Portland Police, Bureau of Labor Statistics, Portland on the market, etc
+We have gathered home prices and home characteristics from Kaggle and complementing with location characteristics from: Portland Maps, Portland Police, Bureau of Labor Statistics, Portland on the market, Census.gov, etc
 
 Add any webscraping??
 
@@ -24,7 +24,7 @@ Is this ETL module? develop cleanig process.
 Updload collected and cleaned data to Postgres or SQL, then build relationships and produce and export final dataframe for analysis
 
 ### 4) Machine Learning Model & Flask
-Create a multivariable regression model , evaluate and make adjustments to land in the best predictive model. Create a flask app to interact with model. 
+Create a multivariable regression model testing all the home characteristics and location characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Create a flask app to interact with model. 
 
 ### 5) Market Trend Analysis & Mapping
 perform analysis on market trends and present in tableau or google sheets. Also provide some pricing summary in heatmap form. 
