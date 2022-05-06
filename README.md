@@ -6,6 +6,7 @@
 * Triangle - Sebastian, Kim
 * Circle - Christopher
 
+
 ## Goal
 Build a model that estimates a home prices in Portland based on home characteristics (bedrm/bath, sqft, year built, etc) and location/demographic characteristics (zip code, crime, income, population density, etc). In addition to the predictive model will also study market trends and draw some informative conclusions to help understand the market. 
 
@@ -30,12 +31,13 @@ The machine learning or multivariable linear regression process will include the
 
 ####- Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
+####- Scale and Normalize values if needed & Handle any categorical variables if needed
 ####- Split X and Y into training and testing sets
 ####- Create an instance of the linear regression model
 ####- Train model or fit with Dataset
-####- Create predictions
+####- Create predictions and evluate R2
 
-Note or Open questions: do we need to scale and normalize data? do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
+Note or Open questions: Do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
 
 ### 5) Market Trend Analysis & Mapping
 perform analysis on market trends and present in tableau or google sheets. Also provide some summaries in heatmap form. 
