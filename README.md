@@ -23,13 +23,21 @@ Data cleaning process includes excel , jupyter notebook processes included in th
 
 2) Crimes_by_zip.csv which contains crime data by zip code (a location/demographic characteristic). The raw date comes in 3 files (crime data by neighborhood and year from the Portland Police in 2 files: CrimeData-2021.csv and CrimeData-2022.csv and a file that maps neighborhoods to zip codes from a web source: Zip_Neighborhood.xlsx). This raw data was merged,  cleaned and transformes using jupyter notebook: Crime_2021_22_by Zip_clean_transform.ipynb. 
 
-3) The 3rd data source will be from Census.gov and contains income and population density by zip code and completes the rest of the location/demograhic variables. (Kym to update description once complete)
+3) Census.gov population by Block Group and Mean Income by ZCTA.
+    * Calculate percent overlap of BG with Zip Code polygons using:
+    https://gis.stackexchange.com/questions/339929/calculating-percentage-of-overlap-of-two-layers-in-qgis-3
+    * Zip Code polygons data source: public dataset maintained by Esri
+    * Use percent overlap to calculate population in each zip code (valid based on assumption that population is evenly dispeared in zip code)
+    * ZCTA related to zip code based on Largest Overlap. Zip codes assigned mean HHI from ZCTA with most overlap.
+
+4) Join all zip code data into one csv
+5) Join house data with zip code data for model input
 
 ### 3) Database Creation  
-Once we complete cleaning and transforming the 3 datasources above we will updload data to Postgres or SQL, then build relationships and produce and export final csv file for analysis. Need database mockup by Sun (Kim working on it)
+Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS RDS toward the middle of the month to meet final grade requirements using this process from Shan: https://github.com/FrankJiang1208/RDS-Tutorial
 
 ### 4) Machine Learning Model & Flask
-Create a multivariable regression model testing all the home characteristics and location/demographic characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Then reate a flask app to interact with model. 
+Create a multivariable regression model testing all the home characteristics and location/demographic characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Then create a flask app to interact with model. 
 
 The machine learning or multivariable linear regression process will include the following steps:
 
