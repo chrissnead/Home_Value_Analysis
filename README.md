@@ -1,29 +1,31 @@
 # Data_Bootcamp_Final_Project
 
+## Overview
+In today's market, housing prices are constantly changing. Whether you're a buyer or a seller, you're looking to get the best value out of your home. This analysis focuses on the Portland housing market by estimating home prices using housing characteristics and location demographics for the area.
+
 ## Project Outline
 ## Roles 
 * Square - Kim
 * Triangle - Sebastian, Kim
 * Circle - Christopher
 
-
 ## Goal
-Build a model that estimates home prices in Portland based on home characteristics (bed/bath, sqft, year built, etc) and location/demographic characteristics (zip code, crime, income, population density, etc). In addition to the predictive model, we will also study market trends and draw some informative conclusions to help understand the market. 
+Build a model that estimates home prices in Portland based on housing characteristics (bed, bath, square feet, year built, etc) and location demographics (zip codes, crime data, average income, population density, etc). In addition to the predictive model, we will also study market trends and draw informative conclusions that will strengthen our home price estimates.
 
 ## Process
 The proposed process includes the following steps and tools:
 
-### 1) Data Collection
-We have gathered housing data from Kaggle and other location characteristics from the following: Portland Maps, Portland Police, Bureau of Labor Statistics, Portland on the market, Census.gov, etc.
+### 1. Data Collection
+We have gathered housing and location data from several sources including Kaggle, Portland Maps, Portland Police, Bureau of Labor Statistics, Portland on the market, Census.gov, etc.
 
-### 2) Data Cleaning
-Data cleaning process includes Excel, Jupyter Notebook processes included in the github repository. There are three main data sources we are measuring:
+### 2. Data Cleaning
+The data cleaning process includes using Jupyter Notebook and PostgreSQL to perform an ETL process. There are three main data sources we are measuring:
 
-1) **portland_housing.csv** which contains most of the housing characteristics and price data. The raw data was downloaded from [Kaggle](https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021?select=portland_housing.csv) and was cleaned and transformed using Jupyter Notebook (see Portland_House_Sales.ipynb). 
+1. **portland_housing.csv** contains most of the housing data. The raw data was downloaded from [Kaggle](https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021?select=portland_housing.csv) and was cleaned and transformed using Jupyter Notebook (see Portland_House_Sales.ipynb). 
 
-2) **Crimes_by_zip.csv** which contains crime data by zip code (a location/demographic characteristic). The raw data comes in three files (crime data by neighborhood and year from the Portland Police in two files (CrimeData-2021.csv and CrimeData-2022.csv) and a file that maps neighborhoods to zip codes from a web source: Zip_Neighborhood.xlsx). This raw data was merged,  cleaned and transformes using Jupyter Notebook (see Crime_2021_22_by Zip_clean_transform.ipynb). 
+2. **Crimes_by_zip.csv** contains crime data by zip code (a location/demographic characteristic). The raw data comes in three files (crime data by neighborhood and year from the Portland Police in two files (CrimeData-2021.csv and CrimeData-2022.csv) and a file that maps neighborhoods to zip codes from a web source: Zip_Neighborhood.xlsx). The data was loaded, cleaned, and transformed using Jupyter Notebook (see Crime_2021_22_by Zip_clean_transform.ipynb). 
 
-3) Census.gov population by Block Group and Mean Income by ZCTA.
+3. Census.gov population by Block Group and Mean Income by ZCTA.
     * Calculate percent overlap of BG with Zip Code polygons using:
     https://gis.stackexchange.com/questions/339929/calculating-percentage-of-overlap-of-two-layers-in-qgis-3
     * Zip Code polygons data source: public dataset maintained by Esri
