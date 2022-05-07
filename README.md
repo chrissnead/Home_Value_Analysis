@@ -19,7 +19,7 @@ We have gathered home prices and home characteristics from Kaggle and complement
 ### 2) Data Cleaning
 Data cleaning process includes excel , jupyter notebook processes included in the github repository. There are 3 main data csv file:
 
-1) Portland_housing.CSV which contains most of the housing characteristics and price data. The raw  data was downloaded from Kaeggle (Redfin-May-2020-2022-House-Sales.csv) and then cleaned and transformes using jupyter notebook: Portland_House_Sales.ipynb. 
+1) Portland_housing.csv which contains most of the housing characteristics and price data. The raw  data was downloaded from Kaeggle (Redfin-May-2020-2022-House-Sales.csv) and then cleaned and transformes using jupyter notebook: Portland_House_Sales.ipynb. 
 
 2) Crimes_by_zip.csv which contains crime data by zip code (a location/demographic characteristic). The raw date comes in 3 files (crime data by neighborhood and year from the Portland Police in 2 files: CrimeData-2021.csv and CrimeData-2022.csv and a file that maps neighborhoods to zip codes from a web source: Zip_Neighborhood.xlsx). This raw data was merged,  cleaned and transformes using jupyter notebook: Crime_2021_22_by Zip_clean_transform.ipynb. 
 
