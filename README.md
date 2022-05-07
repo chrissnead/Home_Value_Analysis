@@ -49,4 +49,4 @@ Y or dependant variable will be the estimated home price which the X or dependan
 Note or Open questions: Do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
 
 ### 5) Market Trend Analysis & Mapping
-perform analysis on market trends and present in tableau or google sheets. Also provide some summaries in heatmap form. 
+Perform analysis on market trends and present in tableau or google sheets. Also provide some summaries in heatmap form. 
