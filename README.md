@@ -33,18 +33,19 @@ Create a multivariable regression model testing all the home characteristics and
 
 The machine learning or multivariable linear regression process will include the following steps:
 
-####- Define variables:
+#### Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
 
-####- Scale and Normalize values if needed & Handle any categorical variables if needed.
+#### Scale and Normalize values if needed & Handle any categorical variables if needed.
 
-####- Split X and Y into training and testing sets.
+#### Split X and Y into training and testing sets.
 
-####- Create an instance of the linear regression model.
+#### Create an instance of the linear regression model.
 
-####- Train model or fit with Dataset. Evaluate each variable cofficient and decide is there are some variables that have low influence and worth dropping and restarting the process. 
+#### Train model or fit with Dataset.
+Evaluate each variable cofficient and decide is there are some variables that have low influence and worth dropping and restarting the process. 
 
-####- Create predictions and evaluate R2.
+#### Create predictions and evaluate R2.
 
 Note or Open questions: Do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
 
