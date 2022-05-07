@@ -63,7 +63,7 @@ Note or Open questions: Do we need to do the home characteristic model at the zi
 Perform analysis on market trends and present in tableau or google sheets. Also provide some summaries in heatmap form. 
 
 ## Resources
-- Datasets: [Kaggle](https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021?select=portland_housing.csv), https://www.portlandoregon.gov/police/71978, https://www.portlandonthemarket.com/, https://www.census.gov/
+- Datasets: [Kaggle](https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021?select=portland_housing.csv), [Portland Police](https://www.portlandoregon.gov/police/71978), [Portland on the market](https://www.portlandonthemarket.com/), [Census](https://www.census.gov/)
 - Language(s): Python, SQL, JSON
 - Tools: Jupyter Notebook, Flask, pgAdmin, PostgreSQL, Excel
 - Libraries: Pandas, Scikit-learn
