@@ -35,10 +35,10 @@ The data cleaning process includes using Jupyter Notebook and PostgreSQL to perf
 4) Join all zip code data into one csv
 5) Join house data with zip code data for model input
 
-### 3) Database Creation  
+### 3. Database Creation  
 Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS RDS toward the middle of the month to meet final grade requirements using this process from Shan: https://github.com/FrankJiang1208/RDS-Tutorial
 
-### 4) Machine Learning Model & Flask
+### 4. Machine Learning Model & Flask
 Create a multivariable regression model testing all the home characteristics and location/demographic characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Then create a flask app to interact with model. 
 
 The machine learning or multivariable linear regression process will include the following steps:
@@ -59,7 +59,7 @@ Evaluate each variable cofficient and decide is there are some variables that ha
 
 Note or Open questions: Do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
 
-### 5) Market Trend Analysis & Mapping
+### 5. Market Trend Analysis & Mapping
 Perform analysis on market trends and present in tableau or google sheets. Also provide some summaries in heatmap form. 
 
 ## Resources
