@@ -3,12 +3,6 @@
 ## Overview
 In today's market, housing prices are constantly changing. Whether you're a buyer or a seller, you're looking to get the best value out of your home. This analysis focuses on the Portland housing market by estimating home prices using housing characteristics and location demographics for the area.
 
-## Project Outline
-## Roles 
-* Square - Kim
-* Triangle - Sebastian, Kim
-* Circle - Christopher
-
 ## Goal
 Build a model that estimates home prices in Portland based on housing characteristics (bed, bath, square feet, year built, etc) and location demographics (zip codes, crime data, average income, population density, etc). In addition to the predictive model, we will also study market trends and draw informative conclusions that will strengthen our home price estimates.
 
