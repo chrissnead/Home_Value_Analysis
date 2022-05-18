@@ -43,15 +43,24 @@ The machine learning or multivariable linear regression process will include the
 #### -Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
 
+![image](https://user-images.githubusercontent.com/96096924/169173489-b3597989-7316-4a92-acf8-c1a5e4f99cec.png)
+
 #### -Split X and Y into training and testing sets.
+
+![image](https://user-images.githubusercontent.com/96096924/169173545-bd5bf9c8-7a58-4291-85b8-b615a3b3b9d9.png)
 
 #### -Create an instance of the linear regression model.
 
+![image](https://user-images.githubusercontent.com/96096924/169173652-8cf3181e-4b5c-493c-ae50-090057b58181.png)
+
 #### -Train model or fit with Dataset.
-Evaluate each variable cofficient and decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared: 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
+
+![image](https://user-images.githubusercontent.com/96096924/169173717-18ab393b-cbd3-49db-bf1b-d0d402b6d999.png)
 
 #### -Create predictions and evaluate R2.
 Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared: 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
+
+![image](https://user-images.githubusercontent.com/96096924/169173768-2c9589f4-f579-463e-a24d-f94cd958a1d0.png)
 
 ### 5. Market Trend Analysis & Mapping
 
