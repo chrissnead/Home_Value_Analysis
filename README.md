@@ -26,8 +26,9 @@ The data cleaning process includes using Jupyter Notebook and PostgreSQL to perf
     * Use percent overlap to calculate population in each zip code (valid based on assumption that population is evenly dispeared in zip code)
     * ZCTA related to zip code based on Largest Overlap. Zip codes assigned mean HHI from ZCTA with most overlap.
 
-4) Join all zip code data into one csv
-5) Join house data with zip code data for model input
+4. Cleaned and transformed data to load into database. For housing data we used "Sales_Cleaning.ipynb" and for demographic data we used "Income_Cleaning.ipynb". We discarted the crime data as the extent of zip codes in the data was much smaller than the housing and demographic info and was too labor exetensive to gather from multiple police departments. 
+
+5. Join house data with zip code data for model input ("final_housing.csv" under resources)
 
 ### 3. Database Creation  (Chris to update?)
 Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS RDS toward the middle of the month to meet final grade requirements using this process from Shan: https://github.com/FrankJiang1208/RDS-Tutorial.
