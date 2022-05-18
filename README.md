@@ -63,7 +63,7 @@ Note or Open questions: Do we need to do the home characteristic model at the zi
 
 We have interactive maps and graphs in tableau: [Link to Tableau](https://public.tableau.com/views/FinalProject_16528921784890/Map1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
-We also have a summary presentation that includes the maps and graphs in google slides: [Link to Google](https://docs.google.com/presentation/d/e/2PACX-1vROMHIh3D-UCJORpKo2s_XneHiCjf_OwLdKa[…]xBnI65dGvVG4HDaQPs5sPa-/pub?start=true&loop=true&delayms=3000)
+We also have a summary presentation that includes the maps and graphs in google slides: [Link to Google](https://docs.google.com/presentation/d/e/2PACX-1vROMHIh3D-UCJORpKo2s_XneHiCjf_OwLdKasuqfTai19b0_DwvtW7NHxBnI65dGvVG4HDaQPs5sPa-/pub?start=true&loop=true&delayms=3000&slide=id.g12c77fac72e_0_1)
 
 ## Resources
 - Datasets: [Kaggle](https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021?select=portland_housing.csv), [Portland Police](https://www.portlandoregon.gov/police/71978), [Portland on the market](https://www.portlandonthemarket.com/), [Census Population Density](https://data.census.gov/cedsci/table?q=B01003&g=0400000US41%241500000&tid=ACSDT5Y2020.B01003), [Census Income](https://data.census.gov/cedsci/table?q=income&g=0400000US41%241500000&tid=ACSDT5Y2020.B19001), [ArcGis](https://www.arcgis.com/home/item.html?id=8d2012a2016e484dafaac0451f9aea24)
