@@ -29,7 +29,7 @@ The data cleaning process includes using Jupyter Notebook and PostgreSQL to perf
 4) Join all zip code data into one csv
 5) Join house data with zip code data for model input
 
-### 3. Database Creation  
+### 3. Database Creation  (Chris to update?)
 Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS RDS toward the middle of the month to meet final grade requirements using this process from Shan: https://github.com/FrankJiang1208/RDS-Tutorial.
 
 [Link to ERD](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Resources/EntityRelationshipDiagram.png)
