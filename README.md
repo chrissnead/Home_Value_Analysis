@@ -38,27 +38,24 @@ Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS
 ### 4. Machine Learning Model & Flask
 Create a multivariable regression model testing all the home characteristics and location/demographic characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Then create a flask app to interact with model. 
 
-The machine learning or multivariable linear regression process will include the following steps:
+The machine learning or multivariable linear regression process will include the following steps (for reference see "Multiple_Linear_Regression.ipynb"):
 
 #### -Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
-
-#### -Scale and Normalize values if needed & Handle any categorical variables if needed.
 
 #### -Split X and Y into training and testing sets.
 
 #### -Create an instance of the linear regression model.
 
 #### -Train model or fit with Dataset.
-Evaluate each variable cofficient and decide is there are some variables that have low influence and worth dropping and restarting the process. 
+Evaluate each variable cofficient and decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared: 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
 
 #### -Create predictions and evaluate R2.
-
-Note or Open questions: Do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
+Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared: 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
 
 ### 5. Market Trend Analysis & Mapping
 
-#### -Home Price Predictive Model (Flask App)
+#### -Home Price Predictive Model (Flask App) (Kim to update?)
 
 #### -Portland Market Analysis 
 
