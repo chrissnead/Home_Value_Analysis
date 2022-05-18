@@ -64,7 +64,7 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169173768-2c9589f4-f579-463e-a24d-f94cd958a1d0.png)
 
-### 5. Market Trend Analysis & Mapping
+### 5. Predictive Model Presentation , Market Trend Analysis & Mapping
 
 #### -Home Price Predictive Model (Flask App) (Kim to update?)
 
