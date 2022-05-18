@@ -58,7 +58,7 @@ Y or dependant variable will be the estimated home price which the X or dependan
 ![image](https://user-images.githubusercontent.com/96096924/169173717-18ab393b-cbd3-49db-bf1b-d0d402b6d999.png)
 
 #### -Create predictions and evaluate R2.
-Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared: 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
+Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared (slightly over 0.7): 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
 
 ![image](https://user-images.githubusercontent.com/96096924/169173768-2c9589f4-f579-463e-a24d-f94cd958a1d0.png)
 
