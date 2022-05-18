@@ -56,7 +56,14 @@ Evaluate each variable cofficient and decide is there are some variables that ha
 Note or Open questions: Do we need to do the home characteristic model at the zip code level? assume datasets will be too small to analyize by zip so no.
 
 ### 5. Market Trend Analysis & Mapping
-Perform analysis on market trends and present in tableau or google sheets. Also provide some summaries in heatmap form. 
+
+#### -Home Price Predictive Model (Flask App)
+
+#### -Portland Market Analysis 
+
+We have interactive maps and graphs in tableau: [Link to Tableau](https://public.tableau.com/views/FinalProject_16528921784890/Map1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+We also have a summary presentation that includes the maps and graphs in google slides: [Link to Google](https://docs.google.com/presentation/d/e/2PACX-1vROMHIh3D-UCJORpKo2s_XneHiCjf_OwLdKa[…]xBnI65dGvVG4HDaQPs5sPa-/pub?start=true&loop=true&delayms=3000)
 
 ## Resources
 - Datasets: [Kaggle](https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021?select=portland_housing.csv), [Portland Police](https://www.portlandoregon.gov/police/71978), [Portland on the market](https://www.portlandonthemarket.com/), [Census Population Density](https://data.census.gov/cedsci/table?q=B01003&g=0400000US41%241500000&tid=ACSDT5Y2020.B01003), [Census Income](https://data.census.gov/cedsci/table?q=income&g=0400000US41%241500000&tid=ACSDT5Y2020.B19001), [ArcGis](https://www.arcgis.com/home/item.html?id=8d2012a2016e484dafaac0451f9aea24)
