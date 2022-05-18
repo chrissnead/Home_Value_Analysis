@@ -38,6 +38,8 @@ Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS
 ### 4. Machine Learning Model & Flask
 Create a multivariable regression model testing all the home characteristics and location/demographic characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Then create a flask app to interact with model. 
 
+Given that we have identified multiple independant variables that can help predict the sale price we beleive the best approach is a multivariable regression model. We followed the process below using a linear multivariable regression and as we cleaned data and selected the right variables we kept increasing the R squared until getting slightly over 0.7, which we beleive is a pretty good prediction model given the time and data constraints.
+
 The machine learning or multivariable linear regression process will include the following steps (for reference see "Multiple_Linear_Regression.ipynb"):
 
 #### -Define variables:
