@@ -71,9 +71,13 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169188652-8f8545a6-3df2-4beb-8a0e-cdfd16aeb4b8.png)
 
+#### -Run prediction model and show data against predictions
+
+### need to finalize in notebook and copy here
+
 ### 5. Predictive Model Flask 
 
-In order to simplify user inputs in the flask app we dropped a few variables making the main 2 variables the user needs to provide being square footage and zip code.
+In order to simplify user inputs in the flask app we dropped a few variables making the main 2 variables the user needs to provide being square footage and zip code. The model R squared only drops one point so we consider this a very good trade off of a little bit of accuracy in exchange for a more user friendly input requirement.
 
 ### (Kim to update?)
 
