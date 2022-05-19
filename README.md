@@ -69,7 +69,7 @@ Y or dependant variable will be the estimated home price which the X or dependan
 #### -Evaluate model coefficients and R2.
 Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared (slightly over 0.7): 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
 
-![image](https://user-images.githubusercontent.com/96096924/169186169-6137305c-cc47-46a0-9c67-8b062a146564.png)
+![image](https://user-images.githubusercontent.com/96096924/169188652-8f8545a6-3df2-4beb-8a0e-cdfd16aeb4b8.png)
 
 ### 5. Predictive Model Flask 
 
