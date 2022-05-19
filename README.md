@@ -28,8 +28,6 @@ The data cleaning process includes using Jupyter Notebook and PostgreSQL to perf
 
 4. Clean and transform data to load into database. For housing data we used [Sales_Cleaning.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Sales_Cleaning.ipynb) and for demographic data we used [Income_Cleaning.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Income_Cleaning.ipynb). We discarded the crime data as the extent of zip codes in the data was much smaller than the housing and demographic info and was too labor exetensive to gather from multiple police departments.
 
-5. Join housing data with income data for model input which was exported to [final_housing.csv](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Resources/final_housing.csv).
-
 ### 3. Database Creation  
 Data was cleaned in [Sales_Cleaning.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Sales_Cleaning.ipynb) and [Income_Cleaning.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Income_Cleaning.ipynb) and loaded into PostgreSQL using a SQLAlchemy connection. These files were combined through a JOIN which was then exported to [final_housing.csv](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Resources/final_housing.csv) for use in our Machine Learning model (see [queries.sql](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Queries/queries.sql) for queries performed in PostgreSQL).
 
