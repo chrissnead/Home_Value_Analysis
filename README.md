@@ -68,11 +68,11 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169186169-6137305c-cc47-46a0-9c67-8b062a146564.png)
 
-### 5. Predictive Model Flask , Market Trend Analysis & Mapping
+### 5. Predictive Model Flask 
 
-#### -Home Price Predictive Model (Flask App) (Kim to update?)
+#### (Kim to update?)
 
-#### -Portland Market Analysis 
+### 6. Market Trend Analysis & Mapping
 
 We have created interactive maps and graphs in tableau: [Link to Tableau](https://public.tableau.com/views/FinalProject_16528921784890/Map1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
