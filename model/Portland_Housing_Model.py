@@ -3,9 +3,15 @@
 
 # In[32]:
 
+import pandas as pd
+import numpy as np
+import sklearn
+import pickle
+import requests
+import json
 
 #Import joined house sale data and zip code data, mockup will be from github, final will be from AWS
-source = "Resources/combined_housing.csv"
+source = "../Resources/final_housing.csv"
 data = pd.read_csv(source)
 
 
