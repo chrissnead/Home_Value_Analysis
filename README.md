@@ -40,6 +40,8 @@ Given that we have identified multiple independent variables that can help predi
 
 The machine learning or multivariable linear regression process will include the following steps (for reference see [Multiple_Linear_Regression.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Multiple_Linear_Regression.ipynb)):
 
+##### Note: if time permits in phase 3 will be trying other supervised machine learning models and comparing to the presented one.
+
 #### -Import dependencies, load and clean data: 
 
 ![image](https://user-images.githubusercontent.com/96096924/169199304-36107437-9051-490c-a5e4-cff6c909f17d.png)
