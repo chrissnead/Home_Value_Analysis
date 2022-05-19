@@ -71,7 +71,7 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169188652-8f8545a6-3df2-4beb-8a0e-cdfd16aeb4b8.png)
 
-#### -Run prediction model and show data against predictions
+#### -Run predictive model and show data against predictions
 
 ### need to finalize in notebook and copy here
 
