@@ -71,9 +71,9 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169188652-8f8545a6-3df2-4beb-8a0e-cdfd16aeb4b8.png)
 
-#### -Run predictive model and show data against predictions
+#### -Use predict method and show data against predictions line
 
-### need to finalize in notebook and copy here
+### need to finalize in notebook and copy here Sebastian or Kim?
 
 ### 5. Predictive Model Flask 
 
