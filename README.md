@@ -44,7 +44,7 @@ The machine learning or multivariable linear regression process will include the
 
 #### -Import dependencies, collect and clean data: (this needs to be updated for the new file from Chris)
 
-![image](https://user-images.githubusercontent.com/96096924/169175284-b1c9109a-3d4d-4032-88c2-7ebe36efeb35.png)
+![image](https://user-images.githubusercontent.com/96096924/169186275-67efc22e-6bc8-4442-ac08-67ee5e4e8cbe.png)
 
 #### -Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
@@ -63,12 +63,10 @@ Y or dependant variable will be the estimated home price which the X or dependan
 
 ![image](https://user-images.githubusercontent.com/96096924/169173717-18ab393b-cbd3-49db-bf1b-d0d402b6d999.png)
 
-#### -Create predictions and evaluate R2.
+#### -Evaluate coefficients and R2.
 Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared (slightly over 0.7): 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
 
-#### ''''''Question= do we need to add the create prediction: y_pred = model.predict(X) 
-
-![image](https://user-images.githubusercontent.com/96096924/169173768-2c9589f4-f579-463e-a24d-f94cd958a1d0.png)
+![image](https://user-images.githubusercontent.com/96096924/169186169-6137305c-cc47-46a0-9c67-8b062a146564.png)
 
 ### 5. Predictive Model Presentation , Market Trend Analysis & Mapping
 
