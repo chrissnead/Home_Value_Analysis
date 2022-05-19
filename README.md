@@ -42,6 +42,10 @@ Given that we have identified multiple independant variables that can help predi
 
 The machine learning or multivariable linear regression process will include the following steps (for reference see "Multiple_Linear_Regression.ipynb"):
 
+#### -Import dependencies, collect and clean data: (this needs to be updated for the new file from Chris)
+
+![image](https://user-images.githubusercontent.com/96096924/169175284-b1c9109a-3d4d-4032-88c2-7ebe36efeb35.png)
+
 #### -Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
 
@@ -62,7 +66,7 @@ Y or dependant variable will be the estimated home price which the X or dependan
 #### -Create predictions and evaluate R2.
 Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared (slightly over 0.7): 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
 
-#### ''''''Question= do we need to add the create prediction: y_pred = model.predict(X) and print(y_pred.shape)????????
+#### ''''''Question= do we need to add the create prediction: y_pred = model.predict(X) 
 
 ![image](https://user-images.githubusercontent.com/96096924/169173768-2c9589f4-f579-463e-a24d-f94cd958a1d0.png)
 
