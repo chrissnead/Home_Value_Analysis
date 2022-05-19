@@ -62,7 +62,7 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 ![image](https://user-images.githubusercontent.com/96096924/169199597-d4a8719f-3301-415e-b9f5-bbb55d0d1850.png)
 
 
-#### -Use predict method and show data against predictions line
+#### -Use predict method.
 
 ![image](https://user-images.githubusercontent.com/96096924/169199790-12ded49d-38fd-4c88-9fcf-28bb979897ad.png)
 
