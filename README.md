@@ -35,7 +35,7 @@ Data will be stored on github to avoid AWS RDS charge. CSVs will be moved to AWS
 
 [Link to ERD](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Resources/EntityRelationshipDiagram.png)
 
-### 4. Machine Learning Model & Flask
+### 4. Machine Learning Model
 Create a multivariable regression model testing all the home characteristics and location/demographic characteristics mentioned above , evaluate and make adjustments to land in the best predictive model. Then create a flask app to interact with model. 
 
 Given that we have identified multiple independant variables that can help predict the sale price we beleive the best approach is a multivariable regression model. We followed the process below using a linear multivariable regression and as we cleaned data and selected the right variables we kept increasing the R squared until getting slightly over 0.7, which we beleive is a pretty good prediction model given the time and data constraints. So as benefits go we think is this a pretty simple and accurate tool to help complete other information on the decisions making. In other words, the model takes very simple inputs and provides an estimate with reasonable accuracy.Some of the limitations of the midle might include (1) database size which could have been mitigated but pulling a longer peiord of time, (2) additional variables not included could help further explain, for examples crime counts, school scores, etc. These variables are not as easily available without a cost.
@@ -68,7 +68,7 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169186169-6137305c-cc47-46a0-9c67-8b062a146564.png)
 
-### 5. Predictive Model Presentation , Market Trend Analysis & Mapping
+### 5. Predictive Model Flask , Market Trend Analysis & Mapping
 
 #### -Home Price Predictive Model (Flask App) (Kim to update?)
 
