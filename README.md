@@ -73,6 +73,8 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ### 5. Predictive Model Flask 
 
+In order to simplify user inputs in the flask app we dropped a few variables making the main 2 variables the user needs to provide being square footage and zip code.
+
 ### (Kim to update?)
 
 ### 6. Market Trend Analysis & Mapping
