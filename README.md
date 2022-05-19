@@ -42,7 +42,7 @@ Given that we have identified multiple independant variables that can help predi
 
 The machine learning or multivariable linear regression process will include the following steps (for reference see "Multiple_Linear_Regression.ipynb"):
 
-#### -Import dependencies, collect and clean data: (this needs to be updated for the new file from Chris)
+#### -Import dependencies, collect and clean data: 
 
 ![image](https://user-images.githubusercontent.com/96096924/169186275-67efc22e-6bc8-4442-ac08-67ee5e4e8cbe.png)
 
