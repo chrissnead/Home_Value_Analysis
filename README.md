@@ -36,7 +36,7 @@ Data was cleaned in [Sales_Cleaning.ipynb](https://github.com/klcollins503/Data_
 ### 4. Machine Learning Model
 Create a multivariable regression model testing home, location, and demographic characteristics mentioned above. The variables will be evaluated to determine best fit for the predictive model which will be represented through a Flask app.
 
-Given that we have identified multiple independent variables that can help predict the sale price, a multivariable regression model will most accurately predict values based on the data. As we followed the process below using a multivariable linear regression, we cleaned data and selected the right variables until the R squared value output slightly over 0.7, indicating a fairly accurate prediction given our constraints. With the variables used, the model takes very simple inputs and provides an estimate with reasonable accuracy. Some of the limitations of the model might include (1) size of dataset which could be mitigated by pulling data for a longer period of time, (2) additional variables not included could allow for better accuracy including crime counts, school ratings, etc. These variables are not as easily available without a cost.
+Given that we have identified multiple independent variables that can help predict the sale price, a multivariable regression model will most accurately predict values based on the data. As we followed the process below using a multivariable linear regression, we cleaned data and selected the right variables until we got the best R squared value output (slightly over 0.71), indicating a fairly accurate prediction given our constraints. With the variables used, the model takes very simple inputs and provides an estimate with reasonable accuracy. Some of the limitations of the model might include (1) size of dataset which could be mitigated by pulling data for a longer period of time though timing could be another independant variable in high growth or decline markets, (2) additional variables not included could allow for better accuracy including crime counts, school ratings, etc. These variables are not as easily available without a cost.
 
 The machine learning or multivariable linear regression process will include the following steps (for reference see [Multiple_Linear_Regression.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Multiple_Linear_Regression.ipynb)):
 
@@ -65,8 +65,6 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 #### -Use predict method and show data against predictions line
 
 ![image](https://user-images.githubusercontent.com/96096924/169199790-12ded49d-38fd-4c88-9fcf-28bb979897ad.png)
-
-
 
 ### 5. Predictive Model Flask 
 
