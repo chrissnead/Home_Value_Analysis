@@ -40,37 +40,31 @@ Given that we have identified multiple independent variables that can help predi
 
 The machine learning or multivariable linear regression process will include the following steps (for reference see [Multiple_Linear_Regression.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Multiple_Linear_Regression.ipynb)):
 
-#### -Import dependencies, collect and clean data: 
+#### -Import dependencies, load and clean data: 
 
-![image](https://user-images.githubusercontent.com/96096924/169186275-67efc22e-6bc8-4442-ac08-67ee5e4e8cbe.png)
+![image](https://user-images.githubusercontent.com/96096924/169199304-36107437-9051-490c-a5e4-cff6c909f17d.png)
+
 
 #### -Define variables:
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density.
 
-![image](https://user-images.githubusercontent.com/96096924/169173489-b3597989-7316-4a92-acf8-c1a5e4f99cec.png)
+![image](https://user-images.githubusercontent.com/96096924/169199373-169ba359-d65e-4545-ae4c-422875bfa77b.png)
 
-#### -Split X and Y into training and testing sets.
+#### -Create an instance of the linear regression model. Train model or fit with Dataset.
 
-![image](https://user-images.githubusercontent.com/96096924/169173545-bd5bf9c8-7a58-4291-85b8-b615a3b3b9d9.png)
-
-#### -Create an instance of the linear regression model.
-
-![image](https://user-images.githubusercontent.com/96096924/169173652-8cf3181e-4b5c-493c-ae50-090057b58181.png)
-
-#### -Train model or fit with Dataset.
-
-![image](https://user-images.githubusercontent.com/96096924/169173717-18ab393b-cbd3-49db-bf1b-d0d402b6d999.png)
+![image](https://user-images.githubusercontent.com/96096924/169199488-da33daf8-138e-45ba-9b98-232624574c3e.png)
 
 #### -Evaluate model coefficients and R2.
-Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared (slightly over 0.7): 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'
+Evaluate each variable cofficient and R squared to decide is there are some variables that have low influence and worth dropping and restarting the process. In this process we decided for to use the following variables that provided the highest R squared (slightly over 0.7): 'Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built'. To get here we iterated through this process multiple times with different set of variables but just showing the final one.
 
-![image](https://user-images.githubusercontent.com/96096924/169188652-8f8545a6-3df2-4beb-8a0e-cdfd16aeb4b8.png)
+![image](https://user-images.githubusercontent.com/96096924/169199597-d4a8719f-3301-415e-b9f5-bbb55d0d1850.png)
 
-![image](https://user-images.githubusercontent.com/96096924/169193120-7f12bace-34cf-4767-a603-5ad07809fb00.png)
 
 #### -Use predict method and show data against predictions line
 
-### need to finalize in notebook and copy here Sebastian or Kim?
+![image](https://user-images.githubusercontent.com/96096924/169199790-12ded49d-38fd-4c88-9fcf-28bb979897ad.png)
+
+
 
 ### 5. Predictive Model Flask 
 
