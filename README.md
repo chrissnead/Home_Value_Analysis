@@ -66,6 +66,9 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ![image](https://user-images.githubusercontent.com/96096924/169199790-12ded49d-38fd-4c88-9fcf-28bb979897ad.png)
 
+The machine learning or random forest regression process will include the following steps (for reference see [Random_Forest_Regressor_MaxDepth5.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Random_Forest_Regressor_MaxDepth5.ipynb):
+
+
 ### 5. Predictive Model Flask 
 
 In order to simplify user inputs in the Flask app we dropped a few variables. With this, the main 2 variables the user must provide are square footage and zip code. The model R squared only drops one point so we consider this a very good trade off of a little bit of accuracy in exchange for a more user friendly input requirement.
