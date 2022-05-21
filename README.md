@@ -101,7 +101,7 @@ Note: only showing the import dependencies as the rest is same as prior model
 
 In order to simplify user inputs in the Flask app we dropped a few variables. With this, the main 2 variables the user must provide are square footage and zip code. The model R squared only drops one point so we consider this a very good trade off of a little bit of accuracy in exchange for a more user friendly input requirement.
 
-### (Kim to update?)
+The app.py file uses the pickle model output to predict home value of user inputs. We will use a dictionary to retrieve the zip code characteristics as the user input.
 
 ### 6. Market Trend Analysis & Mapping
 
