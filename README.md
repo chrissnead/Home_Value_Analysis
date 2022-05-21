@@ -42,12 +42,12 @@ The machine learning or multivariable linear regression process will include the
 
 -Note: note that we included below the model without splitting the data into train and test but we have rerun in the jupiter notebook file linked above a version of the same model splitting into test and train, please look for lines 9 to 12 in: [Multiple_Linear_Regression.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Multiple_Linear_Regression.ipynb)
 
-#### -Import dependencies, load and clean data: 
+#### -Import dependencies, load and clean data.
 
 ![image](https://user-images.githubusercontent.com/96096924/169199304-36107437-9051-490c-a5e4-cff6c909f17d.png)
 
 
-#### -Define variables:
+#### -Define variables.
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density. Keep in mind the png below just shows the final variable selection which took multiple iterations or combinations being tested first.
 
 ![image](https://user-images.githubusercontent.com/96096924/169199373-169ba359-d65e-4545-ae4c-422875bfa77b.png)
@@ -68,6 +68,34 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 The machine learning or random forest regression process will include the following steps (for reference see [Random_Forest_Regressor_MaxDepth5.ipynb](https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Random_Forest_Regressor_MaxDepth5.ipynb):
 
+#### -Import dependencies, load and clean data. 
+Note: only showing the import dependencies as the rest is same as prior model
+
+![image](https://user-images.githubusercontent.com/96096924/169628745-81afcd75-8e6a-49c7-aee7-70bb1479d5c9.png)
+
+#### -Define the feature and target set.
+
+![image](https://user-images.githubusercontent.com/96096924/169628810-175e67fb-5754-4975-bd30-0fde7c8cea81.png)
+
+#### -Split into Train and Test sets.
+
+![image](https://user-images.githubusercontent.com/96096924/169628847-ca4f1762-0504-428b-a2a2-be5dd5fd4fab.png)
+
+#### -Scaling and Fiting model.
+
+![image](https://user-images.githubusercontent.com/96096924/169628893-d43be3f5-ca20-4082-b46a-fd00401a940d.png)
+
+#### -Running and making predictions.
+
+![image](https://user-images.githubusercontent.com/96096924/169628939-58e0b79a-2a59-4dce-8ff6-181f9005d9f9.png)
+
+#### -Calculating accuracy.
+
+![image](https://user-images.githubusercontent.com/96096924/169628970-b56a0e00-e4d7-40f7-8fb7-3273bdbe8709.png)
+
+#### -Printing decision tree.
+
+![image](https://user-images.githubusercontent.com/96096924/169629001-06d556f2-009b-4205-9139-8f5fc26e95cb.png)
 
 ### 5. Predictive Model Flask 
 
