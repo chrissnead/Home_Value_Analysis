@@ -11,7 +11,7 @@ import requests
 import json
 
 #Import joined house sale data and zip code data, mockup will be from github, final will be from AWS
-source = "../Resources/final_housing.csv"
+source = "../Resources/CleanData/clean_housing.csv"
 data = pd.read_csv(source)
 
 
@@ -48,8 +48,8 @@ pickle.dump(regressor, open('portland_housing_model.pkl','wb'))
 
 
 # Loading model to compare the results
-model = pickle.load(open('model.pkl','rb'))
-print(model.predict([['1400','50000','50','100','20','5','2003']]))
+model = pickle.load(open('portland_housing_model.pkl','rb'))
+print(model.predict([[1400,50000,100,2000,3,2,2003]]))
 
 
 # In[ ]:

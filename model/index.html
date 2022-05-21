@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portland Housing</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body style="background: #000;">
+ <div class="login">
+	<h1>Portland Home Price Forecasting Model</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Square Feet" placeholder="Square Feet" required="required" />
+        <input type="text" name="Zip Mean HHI" placeholder="Zip Mean HHI" required="required" />
+        <input type="text" name="Zip Pop Density" placeholder="Zip Pop Density" required="required" />
+        <input type="text" name="Lot Size" placeholder="Lot Size" required="required" />
+        <input type="text" name="Bed" placeholder="Bed" required="required" />
+        <input type="text" name="Bath" placeholder="Bath" required="required" />
+        <input type="text" name="Year Built" placeholder="Year Built" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict Home Price</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+</body>
+</html>
