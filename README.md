@@ -101,6 +101,8 @@ Note: only showing the import dependencies as the rest is same as prior model
 
 ![image](https://user-images.githubusercontent.com/96096924/169941767-b1f589ac-86b0-4e7b-96e0-f36eebb3dde9.png)
 
+The decision tree is included in Resources folder: [Tree] (https://github.com/klcollins503/Data_Bootcamp_Final_Project/blob/main/Resources/tree2.png)
+
 ### 5. Predictive Model Flask 
 
 The app.py file uses the pickle model output to predict home value of user inputs. We will use a dictionary to retrieve the zip code characteristics as the user input.
