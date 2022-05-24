@@ -75,7 +75,7 @@ Note: only showing the import dependencies as the rest is same as prior model
 
 #### -Create buckets and Define the feature and target set.
 
-![image](https://user-images.githubusercontent.com/96096924/169941173-7e6726f8-f3a2-4bc8-afbf-98e159db9035.png)
+![image](https://user-images.githubusercontent.com/96096924/169941945-1c648a51-fd9e-4f4f-855c-76951a91147c.png)
 
 ![image](https://user-images.githubusercontent.com/96096924/169941257-dc9de945-65d5-474c-969f-1a187009bed3.png)
 
