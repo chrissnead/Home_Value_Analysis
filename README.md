@@ -52,7 +52,7 @@ The machine learning or multivariable linear regression process will include the
 #### -Define variables.
 Y or dependant variable will be the estimated home price which the X or dependant variables will be testing include: home characteristic variables like home type, year built, # bed, # bath, sqft , lot size , and location/demographic variables like zip code, crime rate, income, population density. Keep in mind the png below just shows the final variable selection which took multiple iterations or combinations being tested first.
 
-![image](https://user-images.githubusercontent.com/96096924/169199373-169ba359-d65e-4545-ae4c-422875bfa77b.png)
+![image](https://user-images.githubusercontent.com/96096924/169943000-462de40b-bfd9-4ee5-be5d-2b8c86f77017.png)
 
 #### -Create an instance of the linear regression model. Train model or fit with Dataset.
 
