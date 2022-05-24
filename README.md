@@ -73,29 +73,31 @@ Note: only showing the import dependencies as the rest is same as prior model
 
 ![image](https://user-images.githubusercontent.com/96096924/169628745-81afcd75-8e6a-49c7-aee7-70bb1479d5c9.png)
 
-#### -Define the feature and target set.
+#### -Create buckets and Define the feature and target set.
 
-![image](https://user-images.githubusercontent.com/96096924/169628810-175e67fb-5754-4975-bd30-0fde7c8cea81.png)
+![image](https://user-images.githubusercontent.com/96096924/169941173-7e6726f8-f3a2-4bc8-afbf-98e159db9035.png)
+
+![image](https://user-images.githubusercontent.com/96096924/169941257-dc9de945-65d5-474c-969f-1a187009bed3.png)
 
 #### -Split into Train and Test sets.
 
-![image](https://user-images.githubusercontent.com/96096924/169628847-ca4f1762-0504-428b-a2a2-be5dd5fd4fab.png)
+![image](https://user-images.githubusercontent.com/96096924/169941372-dacd8a39-ad22-406d-866f-4b34f5263b79.png)
 
 #### -Scaling and Fiting model.
 
-![image](https://user-images.githubusercontent.com/96096924/169628893-d43be3f5-ca20-4082-b46a-fd00401a940d.png)
+![image](https://user-images.githubusercontent.com/96096924/169941505-fa9e9066-8f8b-489b-814c-82e49b7d011d.png)
 
 #### -Running and making predictions.
 
-![image](https://user-images.githubusercontent.com/96096924/169628939-58e0b79a-2a59-4dce-8ff6-181f9005d9f9.png)
+![image](https://user-images.githubusercontent.com/96096924/169941588-2b02491c-90cf-4120-bfe2-7c4a97589fa6.png)
 
 #### -Calculating accuracy.
 
-![image](https://user-images.githubusercontent.com/96096924/169628970-b56a0e00-e4d7-40f7-8fb7-3273bdbe8709.png)
+![image](https://user-images.githubusercontent.com/96096924/169941719-c6992713-2552-4e9d-9946-301cac900ea4.png)
 
 #### -Printing decision tree.
 
-![image](https://user-images.githubusercontent.com/96096924/169629001-06d556f2-009b-4205-9139-8f5fc26e95cb.png)
+![image](https://user-images.githubusercontent.com/96096924/169941767-b1f589ac-86b0-4e7b-96e0-f36eebb3dde9.png)
 
 ### 5. Predictive Model Flask 
 
