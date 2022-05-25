@@ -18,10 +18,8 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="Square Feet" placeholder="Square Feet" required="required" />
-        <input type="text" name="zip" placeholder="zip" required="required" />
-        <!--<input type="text" name="Zip Pop Density" placeholder="Zip Pop Density" required="required" />
-        <input type="text" name="Lot Size" placeholder="Lot Size" required="required" />
-        <input type="text" name="Year Built" placeholder="Year Built" required="required" />-->
+        <input type="text" name="zip" placeholder="Zip Code" required="required" />
+
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict Home Price</button>
     </form>
 

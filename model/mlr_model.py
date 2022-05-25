@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[1]:
 
 
 import pandas as pd
@@ -13,40 +13,29 @@ import requests
 import json
 
 
-# In[2]:
+# In[5]:
 
 
 # Load Data
-source = "Resources/final_housing.csv"
+source = "../Resources/CleanData/clean_housing.csv"
 data = pd.read_csv(source)
 data.tail()
 data = data.dropna()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+data
 
 
 # # multivariable linear regression
 # 
 
-# In[3]:
+# In[13]:
 
 
 # Define variables
-X = data[['Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built']]
+X = data[['Square Feet', 'Zip Mean HHI']]
 y = data['Sale Price']
 
 
-# In[4]:
+# In[14]:
 
 
 # Create instance of linear regression model
@@ -55,14 +44,14 @@ classifier = LinearRegression()
 classifier
 
 
-# In[5]:
+# In[15]:
 
 
 # Train/fit model
 classifier.fit(X, y)
 
 
-# In[6]:
+# In[16]:
 
 
 # Evaluate model
@@ -72,14 +61,14 @@ print(f"Coefficients: { classifier.coef_}")
 #X = data[['Square Feet', 'Zip Mean HHI', 'Zip Pop Density','Lot Size','Year Built']]
 
 
-# In[7]:
+# In[17]:
 
 
 # Run predictive model
 predictions = classifier.predict(X)
 
 
-# In[10]:
+# In[18]:
 
 
 # Export our model to HDF5 file
@@ -87,12 +76,18 @@ predictions = classifier.predict(X)
 pickle.dump(classifier, open('mlr_model.pkl','wb'))
 
 
-# In[12]:
+# In[20]:
 
 
 # Loading model to compare the results
 model = pickle.load(open('mlr_model.pkl','rb'))
-print(model.predict([['1400','50000','50','100','2003']]))
+print(model.predict([['1400','50000']]))
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

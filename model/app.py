@@ -1,5 +1,6 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, session, redirect
+
 import pickle
 
 app = Flask(__name__)
@@ -68,23 +69,21 @@ zip_dict= {97212: [9726.486486, 146186.0],
 def home():
     return render_template('index.html')
 
-@app.route("/" ,methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        var = request.form.to_dict()
-        PopDensity=zip_dict[int(var['zip'])][0]
-        MeaHHI=zip_dict[int(var['zip'])][1]
-        zipcode=int(var['zip'])
-        p=[zip,PopDensity,MeaHHI]
 
 @app.route('/predict',methods=['POST'])
-def predict():
 
+def predict():
+    if request.method == 'POST':
+        var = request.form.to_dict()
+        MeanHHI=zip_dict[int(var['zip'])][1]
+        zipcode=int(var['zip'])
+        p=[int(MeanHHI)]
     int_features = [int(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
 
-    output = round(prediction[0], 2)
+    #output = round(prediction[0], 8)
+    output = prediction
 
     return render_template('index.html', prediction_text='Home Price Should be $ {}'.format(output))
 
