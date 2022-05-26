@@ -70,20 +70,23 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=('GET','POST'))
 
 def predict():
-    if request.method == 'POST':
-        var = request.form.to_dict()
-        MeanHHI=zip_dict[int(var['zip'])][1]
-        zipcode=int(var['zip'])
-        p=[int(MeanHHI)]
-    int_features = [int(x) for x in request.form.values()]
+    #input = [int(x) for x in request.form.values()]
+    var = request.form.to_dict('MeanHHI')
+    MeanHHI=zip_dict[int(var['MeanHHI'])][1]
+    #zipcode=int(var['zip'])
+    m = int(MeanHHI)
+    s = request.form['Square Feet']
+    sq = int(s)
+    #int_features = [int(x) for x in request.form.values()]
+    int_features = [sq,m]
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
 
-    #output = round(prediction[0], 8)
-    output = prediction
+    output = round(prediction[0], 2)
+    #output = prediction
 
     return render_template('index.html', prediction_text='Home Price Should be $ {}'.format(output))
 
