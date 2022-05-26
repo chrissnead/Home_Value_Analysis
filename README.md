@@ -72,7 +72,7 @@ Evaluate each variable cofficient and R squared to decide is there are some vari
 
 ### 5. Predictive Model Flask 
 
-The app.py file uses the pickle model output to predict home value of user inputs. We will use a dictionary to retrieve the zip code characteristics as the user input.
+The app.py file uses the pickle model output to predict home value of user inputs. We will use a dictionary to retrieve the zip code characteristics as the user input. We have have created a flask app both for a multilinear regression model and random forest regressor model.  
 
 ### 6. Market Trend Analysis & Mapping
 
