@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[20]:
+# In[1]:
 
 
 # Import dependencies
@@ -20,18 +20,18 @@ import requests
 import json
 
 
-# In[21]:
+# In[2]:
 
 
 # Load Data
-source = "Resources/final_housing.csv"
+source = "../Resources/CleanData/clean_housing.csv"
 df_data = pd.read_csv(source)
 df_data.tail()
 df_data = df_data.dropna()
 df_data
 
 
-# In[22]:
+# In[3]:
 
 
 # Establish the spending bins and group names.
@@ -43,7 +43,7 @@ df_data["Sale Price Ranges"] = pd.cut(df_data['Sale Price'], sale_bins, labels=b
 df_data
 
 
-# In[23]:
+# In[4]:
 
 
 # Define the features set.
@@ -55,11 +55,14 @@ X = X.drop("Zip Code", axis=1)
 X = X.drop("Zip Population", axis=1)
 X = X.drop("Zip SqMi", axis=1)
 X = X.drop("Sale Price Ranges", axis=1)
+X = X.drop("$/SF", axis=1)
+X = X.drop("Lot Size", axis=1)
+X = X.drop("Zip Pop Density", axis=1)
 X_list = list(X.columns)
 X
 
 
-# In[24]:
+# In[5]:
 
 
 # Define the target set.
@@ -67,7 +70,7 @@ y = df_data["Sale Price Ranges"].values
 y[:13956]
 
 
-# In[25]:
+# In[18]:
 
 
 # Splitting into Train and Test sets.
@@ -75,7 +78,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
 X_train.shape, X_test.shape
 
 
-# In[26]:
+# In[19]:
 
 
 # Creating a StandardScaler instance.
@@ -88,34 +91,34 @@ X_train_scaled = X_scaler.transform(X_train)
 X_test_scaled = X_scaler.transform(X_test)
 
 
-# In[27]:
+# In[20]:
 
 
 # Create a random forest classifier.
 rf_model = RandomForestClassifier(n_estimators=128, random_state=78) 
 
 
-# In[28]:
+# In[21]:
 
 
 # Fitting the model
-rf_model = rf_model.fit(X_train_scaled, y_train)
+rf_model = rf_model.fit(X_train, y_train)
 
 
-# In[29]:
+# In[22]:
 
 
 # Making predictions using the testing data.
-predictions = rf_model.predict(X_test_scaled)
+predictions = rf_model.predict(X_test)
 
 
-# In[30]:
+# In[23]:
 
 
 predictions
 
 
-# In[31]:
+# In[24]:
 
 
 # Calculating the confusion matrix
@@ -128,7 +131,7 @@ cm_df = pd.DataFrame(
 cm_df
 
 
-# In[32]:
+# In[25]:
 
 
 # Calculating the accuracy score.
@@ -136,18 +139,18 @@ acc_score = accuracy_score(y_test, predictions)
 print (acc_score)
 
 
-# In[33]:
+# In[26]:
 
 
 # Export our model as pickle file
-pickle.dump(rf_model, open('rf_model.pkl','wb'))
+pickle.dump(rf_model, open('rfc_model.pkl','wb'))
 
 
-# In[36]:
+# In[28]:
 
 
-model = pickle.load(open('rf_model.pkl','rb'))
-print(model.predict([[1998, 3, 2, 2000, 3000, 10, 5000, 90000]]))
+model = pickle.load(open('rfc_model.pkl','rb'))
+print(model.predict([[2000, 8, 8, 5000, 500000]]))
 
 
 # In[ ]:
