@@ -2,16 +2,27 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Portland Housing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portland Housing Market</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ url_for('static', filename='static/style.css') }}">
-  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<!--<link rel="stylesheet" href="../static/style.css">-->
+<style>
+  body {
+    background-image: url("https://collinsgeographic.neocities.org/background3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+    background-size: 100% auto;
+  }
+  </style>
 </head>
 
-<body style="background: rgb(253, 253, 253);">
+<body>
  <div class="login">
 	<h1>Portland Home Price Forecasting Model</h1>
 
@@ -23,7 +34,7 @@
         <input type="text" name="Square Feet" placeholder="Square Feet" required="required" />
         <input type="text" name="Zip Code" placeholder="Zip Code" required="required"/>
         
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict Home Price</button>
+        <button type="submit" class="btn btn-primary btn-large">Predict Home Price</button>
     </form>
 
    <br>
