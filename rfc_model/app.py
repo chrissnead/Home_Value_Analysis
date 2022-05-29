@@ -94,7 +94,7 @@ def predict():
     output = prediction
    
 
-    return render_template('index.html', prediction_text='Home Price Should be $ {}'.format(output))
+    return render_template('index.html', prediction_text='Home Price Range Should be: $ {}'.format(output))
 
 @app.route('/results',methods=['POST'])
 def results():
