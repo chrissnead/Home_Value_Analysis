@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify, render_template, session, redirect
 import pickle
 
 app = Flask(__name__)
-model = pickle.load(open('rf_model.pkl', 'rb'))
+model = pickle.load(open('rfc_model.pkl', 'rb'))
 zip_dict= {97212: [9726.486486, 146186.0],
  97206: [7938.756428, 87404.0],
  97213: [7765.640274, 104868.0],
@@ -76,18 +76,18 @@ def predict():
     #input = [int(x) for x in request.form.values()]
     var = request.form.to_dict('Zip Code')
     MeanHHI=zip_dict[int(var['Zip Code'])][1]
-    zipPopDensity=zip_dict[int(var['Zip Code'])][0]
+    #zipPopDensity=zip_dict[int(var['Zip Code'])][0]
     
     m = int(MeanHHI)
-    d = int(zipPopDensity)
+    #d = int(zipPopDensity)
     y = request.form['Year Built']
     be = request.form['Bed']
     ba = request.form['Bath']
     s = request.form['Square Feet']
-    l = request.form['Lot Size']
+    #l = request.form['Lot Size']
     sq = int(s)
     #int_features = [int(x) for x in request.form.values()]
-    int_features = [m,d,y,be,ba,l,sq]
+    int_features = [y,be,ba,sq,m]
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
 
