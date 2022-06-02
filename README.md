@@ -78,7 +78,7 @@ The app.py file in both the multilinear regression model: https://github.com/klc
 
 ### 6. Market Trend Analysis & Mapping
 
-We have created interactive maps and graphs in Tableau: [Link to Tableau](https://public.tableau.com/app/profile/christopher.snead/viz/FinalProject_16533639673560/PortlandHousing?publish=yes)
+We have created interactive maps and graphs in Tableau: [Link to Tableau](https://public.tableau.com/authoring/FinalProject_16528921784890/Map1#2))
 
 We also have created a summary presentation that includes the maps and graphs in Google Slides: [Link to Google](https://docs.google.com/presentation/d/1AFogpP1hiIdtDXincCRe_QYIVq_nWw8owLANXub_sIY/edit?usp=sharing)
 
